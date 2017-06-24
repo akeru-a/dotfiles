@@ -1,0 +1,7 @@
+export PATH=$PATH:/Applications/qaac_2.59/x64
+export PATH=$PATH:/Users/ruke/.nodebrew/current/bin
+export PYENV_ROOT="${HOME}/.pyenv"
+export PS1='\[\033[36m\]\W \$\[\033[0m\] '
+export PATH=${PYENV_ROOT}/bin:$PATH
+eval "$(pyenv init -)"
+
